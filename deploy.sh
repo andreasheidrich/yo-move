@@ -9,7 +9,7 @@ echo "Building the project..."
 yarn run build
 
 # navigate into the build output directory
-cd docs
+cd dist
 
 # place .nojekyll to bypass Jekyll processing
 echo > .nojekyll

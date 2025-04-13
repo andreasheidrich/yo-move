@@ -19,9 +19,5 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-  },
-  build: {
-    emptyOutDir: true, // also necessary
-    outDir: 'docs/'
   }
 }));
