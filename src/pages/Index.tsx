@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import YogaCard from '@/components/YogaCard';
 import ContactForm from '@/components/ContactForm';
-import { Dumbbell, Stretch, Leaf, Mail, WholeWord, Phone } from 'lucide-react';
+import { Dumbbell, Scaling, Leaf, Mail, WholeWord, Phone } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -51,7 +51,7 @@ const Index = () => {
                 title="Deep Stretching"
                 description="Beweglich und flexibel bleiben oder wieder werden. Eine Art Yin Yoga nach wissenschaftlichen Erkenntnissen. Wir üben Yoga Posen, die einfach, effektiv und wirksam sind und uns durch Dehnung wieder mobil, beweglich und flexibel machen. Für alle Menschen jeden Alters und Sportler:innen."
                 link="/contact"
-                icon={<Stretch size={32} />}
+                icon={<Scaling size={32} />}
               />
               
               <YogaCard

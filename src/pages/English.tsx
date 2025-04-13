@@ -1,10 +1,9 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import YogaCard from '@/components/YogaCard';
-import { Dumbbell, Stretch, Leaf, BookOpen } from 'lucide-react';
+import { Dumbbell, Scaling, Leaf, BookOpen } from 'lucide-react';
 
 const English = () => {
   return (
@@ -55,7 +54,7 @@ const English = () => {
                 title="Science of Stretching™ / Deep Stretching"
                 description="Deep Stretching: Staying, or Becoming, Agile and Flexible. A kind of Yin Yoga based on scientific knowledge. We practice yoga poses that are simple and effective for all people of all ages and athletes. Best results with 15 min daily homework!"
                 link="/contact"
-                icon={<Stretch size={32} />}
+                icon={<Scaling size={32} />}
               />
               
               <YogaCard
