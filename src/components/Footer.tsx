@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, Facebook, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -35,6 +35,26 @@ const Footer = () => {
               </li>
               <li>München, Deutschland</li>
               <li>Playa del Ingles-Maspalomas, Gran Canaria</li>
+              <li className="flex items-center space-x-3 mt-4">
+                <a 
+                  href="https://www.facebook.com/profile.php?id=100087722141054" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-yoga-accent transition-colors"
+                  aria-label="Facebook"
+                >
+                  <Facebook size={20} />
+                </a>
+                <a 
+                  href="https://www.instagram.com/yomofitness" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-yoga-accent transition-colors"
+                  aria-label="Instagram"
+                >
+                  <Instagram size={20} />
+                </a>
+              </li>
             </ul>
           </div>
           

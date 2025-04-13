@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Facebook, Instagram } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Navbar = () => {
@@ -33,9 +33,33 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
-        <NavLink to="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold font-heading text-yoga-primary">YO! MOVE</span>
-        </NavLink>
+        <div className="flex items-center">
+          <NavLink to="/" className="flex items-center space-x-2">
+            <span className="text-2xl font-bold font-heading text-yoga-primary">YO! MOVE</span>
+          </NavLink>
+          
+          {/* Social Media Icons */}
+          <div className="flex items-center ml-4 space-x-2">
+            <a 
+              href="https://www.facebook.com/profile.php?id=100087722141054" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-yoga-dark hover:text-yoga-primary transition-colors"
+              aria-label="Facebook"
+            >
+              <Facebook size={20} />
+            </a>
+            <a 
+              href="https://www.instagram.com/yomofitness" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-yoga-dark hover:text-yoga-primary transition-colors"
+              aria-label="Instagram"
+            >
+              <Instagram size={20} />
+            </a>
+          </div>
+        </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-1">
