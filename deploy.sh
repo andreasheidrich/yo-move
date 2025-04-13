@@ -25,6 +25,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+# Replace <USERNAME> with your GitHub username and <REPO> with yo-move-online
+git push -f git@github.com:<USERNAME>/yo-move-online.git main:gh-pages
 
 cd -
